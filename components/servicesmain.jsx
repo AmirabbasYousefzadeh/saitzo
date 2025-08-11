@@ -14,7 +14,7 @@ function servicesmain() {
           </h2>
           <div className="max-w-lg mx-auto text-center bg-[#FFFFFF10] py-[20px] px-[30px] rounded-xl flex justify-center">
             <h2 className="w-96 text-center ">
-              ما در سایتزو فقط وب‌سایت‌های شرکتی <span className="text-cyan-500">نمی‌سازیم!</span> از سایت‌های شخصی و فروشگاهی گرفته تا نمونه‌کار، رزومه، آموزشی و هر ایده‌ای که در ذهن دارید، ما آماده‌ایم آن را به یک وب‌سایت <span className="text-cyan-500">حرفه‌ای و خلاقانه</span>  تبدیل کنیم.
+              ما در سایتزو فقط وب‌سایت‌های شرکتی <span className="text-cyan-500">نمی‌سازیم! <br /></span> از سایت‌های شخصی و فروشگاهی گرفته تا نمونه‌کار، رزومه، آموزشی و هر ایده‌ای که در ذهن دارید، ما آماده‌ایم آن را به یک وب‌سایت <span className="text-cyan-500">حرفه‌ای و خلاقانه</span>  تبدیل کنیم.
             </h2>
           </div>
         </div>
