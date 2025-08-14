@@ -26,7 +26,7 @@ function servicesmain() {
             <Image src={"/company.png"} alt="company.png" width={100} height={100} />
           </div>
           <div>
-            <p className="max-w-md mx-auto text-center bg-[#FFFFFF10] py-[20px] px-[30px] rounded-xl">
+            <p className="max-w-md mohandes mx-auto text-center bg-[#FFFFFF10] py-[20px] px-[30px] rounded-xl">
               ما وب‌سایت‌هایی مدرن، سریع و کاربرپسند برای شرکت‌ها طراحی می‌کنیم تا حضور آنلاین شما را به یک مزیت رقابتی تبدیل کنیم. از طراحی اختصاصی و واکنش‌گرا گرفته تا بهینه‌سازی برای موتورهای جستجو (SEO) و پیاده‌سازی امکانات اختصاصی، همه‌چیز را با بالاترین کیفیت انجام می‌دهیم تا برند شما بدرخشد و مشتریان بیشتری جذب کنید.
             </p>
           </div>
