@@ -14,14 +14,30 @@ function servicesmain() {
             <h2 className="text-3xl md:text-3xl font-bold mt-3">شرکتی</h2>
           </div>
         </div>
-        <div className="px-12 flex py-12" dir="ltr">
-          <div className="w-48 h-48 border rounded-xl bg-[#FFFFFF10]">
-            <button>پلن ها</button>
-            <button>سوالات متداول</button>
-            <button>تماس با ما</button>
+        <div className="px-[70px] flex py-12" dir="ltr">
+          <div className="h-36 w-44 rounded-xl bg-[#FFFFFF10]">
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 rounded-t-xl flex justify-center border-b border-[#FFFFFF10] hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">پلن ها</button>
+              </div>
+            </Link>
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 flex justify-center border-b border-[#FFFFFF10] hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">سوالات متداول</button>
+              </div>
+            </Link>
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 rounded-b-xl flex justify-center hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">تماس با ما</button>
+              </div>
+            </Link>
+
           </div>
-          <div className="w-1/2 ml-80 flex items-center" dir="ltr">
-            <Image src={"/company.png"} alt="company.png" width={100} height={100} className="ml-8 bg-[#FFFFFF10] px-4 py-8 rounded-l-xl" />
+          <div className="ml-28 flex items-center" dir="ltr">
+            <Image src={"/company.png"} alt="company.png" width={100} height={100} className="ml-8 bg-[#FFFFFF10] px-4 py-10 rounded-l-xl" />
           </div>
           <p className="max-w-2xl ml-auto text-center bg-[#FFFFFF10] py-[20px] px-[30px] rounded-r-xl">
             ما وب‌سایت‌هایی مدرن، سریع و کاربرپسند برای شرکت‌ها طراحی می‌کنیم تا حضور آنلاین شما را به یک مزیت رقابتی تبدیل کنیم. از طراحی اختصاصی و واکنش‌گرا گرفته تا بهینه‌سازی برای موتورهای جستجو (SEO) و پیاده‌سازی امکانات اختصاصی، همه‌چیز را با بالاترین کیفیت انجام می‌دهیم تا برند شما بدرخشد و مشتریان بیشتری جذب کنید.
@@ -33,12 +49,34 @@ function servicesmain() {
             <h2 className="text-3xl md:text-3xl font-bold mt-3">فروشگاهی</h2>
           </div>
         </div>
-        <div className="px-12 flex py-12" dir="ltr">
-          <div className="w-1/2 mr-auto px-12 flex items-center" dir="ltr">
-            <Image src={"/Store.png"} alt="Store.png" width={100} height={100} className="ml-8 bg-[#FFFFFF10] px-4 py-8 rounded-l-xl" />
+        <div className="px-[70px] flex py-12" dir="ltr">
+          <div className="h-36 w-44 rounded-xl bg-[#FFFFFF10]">
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 rounded-t-xl flex justify-center border-b border-[#FFFFFF10] hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">پلن ها</button>
+              </div>
+            </Link>
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 flex justify-center border-b border-[#FFFFFF10] hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">سوالات متداول</button>
+              </div>
+            </Link>
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 rounded-b-xl flex justify-center hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">تماس با ما</button>
+              </div>
+            </Link>
+
           </div>
-          <p className="max-w-2xl ml-auto text-center bg-[#FFFFFF10] py-[20px] px-[30px] rounded-r-xl">
-            ما وب‌سایت‌هایی مدرن، سریع و کاربرپسند برای شرکت‌ها طراحی می‌کنیم تا حضور آنلاین شما را به یک مزیت رقابتی تبدیل کنیم. از طراحی اختصاصی و واکنش‌گرا گرفته تا بهینه‌سازی برای موتورهای جستجو (SEO) و پیاده‌سازی امکانات اختصاصی، همه‌چیز را با بالاترین کیفیت انجام می‌دهیم تا برند شما بدرخشد و مشتریان بیشتری جذب کنید.
+          <div className="ml-28 flex items-center" dir="ltr">
+            <Image src={"/store.png"} alt="store.png" width={100} height={100} className="ml-8 bg-[#FFFFFF10] px-4 py-10 rounded-l-xl" />
+          </div>
+          <p className="max-w-2xl ml-auto text-center bg-[#FFFFFF10] py-[20px] px-[30px]
+          rounded-r-xl">
+          ما وب‌سایت‌های فروشگاهی مدرن، سریع و کاربرپسند طراحی می‌کنیم تا کسب‌وکار آنلاین شما را به یک تجربه خرید لذت‌بخش برای مشتریان تبدیل کنیم. از طراحی اختصاصی و واکنش‌گرا گرفته تا پیاده‌سازی درگاه‌های پرداخت امن، مدیریت موجودی و بهینه‌سازی برای موتورهای جستجو، همه‌چیز را با بالاترین کیفیت انجام می‌دهیم تا فروش شما افزایش یابد و برندتان در بازار بدرخشد.
           </p>
         </div>
         <section className="border-t border-white/10 mb-9"></section>
@@ -47,9 +85,30 @@ function servicesmain() {
             <h2 className="text-3xl md:text-3xl font-bold mt-3">شخصی</h2>
           </div>
         </div>
-        <div className="px-12 flex py-12" dir="ltr">
-          <div className="w-1/2 mr-auto px-12 flex items-center" dir="ltr">
-            <Image src={"/personal.png"} alt="personal.png" width={100} height={100} className="ml-8 bg-[#FFFFFF10] px-4 py-8 rounded-l-xl" />
+        <div className="px-[70px] flex py-12" dir="ltr">
+          <div className="h-36 w-44 rounded-xl bg-[#FFFFFF10]">
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 rounded-t-xl flex justify-center border-b border-[#FFFFFF10] hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">پلن ها</button>
+              </div>
+            </Link>
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 flex justify-center border-b border-[#FFFFFF10] hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">سوالات متداول</button>
+              </div>
+            </Link>
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 rounded-b-xl flex justify-center hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">تماس با ما</button>
+              </div>
+            </Link>
+
+          </div>
+          <div className="ml-28 flex items-center" dir="ltr">
+            <Image src={"/personal.png"} alt="personal.png" width={100} height={100} className="ml-8 bg-[#FFFFFF10] px-4 py-10 rounded-l-xl" />
           </div>
           <p className="max-w-2xl ml-auto text-center bg-[#FFFFFF10] py-[20px] px-[30px] rounded-r-xl">
             ما وب‌سایت‌هایی مدرن، سریع و کاربرپسند برای شرکت‌ها طراحی می‌کنیم تا حضور آنلاین شما را به یک مزیت رقابتی تبدیل کنیم. از طراحی اختصاصی و واکنش‌گرا گرفته تا بهینه‌سازی برای موتورهای جستجو (SEO) و پیاده‌سازی امکانات اختصاصی، همه‌چیز را با بالاترین کیفیت انجام می‌دهیم تا برند شما بدرخشد و مشتریان بیشتری جذب کنید.
@@ -61,9 +120,30 @@ function servicesmain() {
             <h2 className="text-3xl md:text-3xl font-bold mt-3">نوبت‌دهی</h2>
           </div>
         </div>
-        <div className="px-12 flex py-12" dir="ltr">
-          <div className="w-1/2 mr-auto px-12 flex items-center" dir="ltr">
-            <Image src={"/turn.png"} alt="turn.png" width={100} height={100} className="ml-8 bg-[#FFFFFF10] px-4 py-8 rounded-l-xl" />
+        <div className="px-[70px] flex py-12" dir="ltr">
+          <div className="h-36 w-44 rounded-xl bg-[#FFFFFF10]">
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 rounded-t-xl flex justify-center border-b border-[#FFFFFF10] hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">پلن ها</button>
+              </div>
+            </Link>
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 flex justify-center border-b border-[#FFFFFF10] hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">سوالات متداول</button>
+              </div>
+            </Link>
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 rounded-b-xl flex justify-center hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">تماس با ما</button>
+              </div>
+            </Link>
+
+          </div>
+          <div className="ml-28 flex items-center" dir="ltr">
+            <Image src={"/schedule.png"} alt="schedule.png" width={100} height={100} className="ml-8 bg-[#FFFFFF10] px-4 py-10 rounded-l-xl" />
           </div>
           <p className="max-w-2xl ml-auto text-center bg-[#FFFFFF10] py-[20px] px-[30px] rounded-r-xl">
             ما وب‌سایت‌هایی مدرن، سریع و کاربرپسند برای شرکت‌ها طراحی می‌کنیم تا حضور آنلاین شما را به یک مزیت رقابتی تبدیل کنیم. از طراحی اختصاصی و واکنش‌گرا گرفته تا بهینه‌سازی برای موتورهای جستجو (SEO) و پیاده‌سازی امکانات اختصاصی، همه‌چیز را با بالاترین کیفیت انجام می‌دهیم تا برند شما بدرخشد و مشتریان بیشتری جذب کنید.
@@ -75,12 +155,33 @@ function servicesmain() {
             <h2 className="text-3xl md:text-3xl font-bold mt-3">منوی دیجیتال</h2>
           </div>
         </div>
-        <div className="px-12 flex py-12" dir="ltr">
-          <div className="w-1/2 mr-auto px-12 flex items-center" dir="ltr">
-            <Image src={"/menu.png"} alt="menu.png" width={100} height={100} className="ml-8 bg-[#FFFFFF10] px-4 py-8 rounded-l-xl" />
+        <div className="px-[70px] flex py-12" dir="ltr">
+          <div className="h-36 w-44 rounded-xl bg-[#FFFFFF10]">
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 rounded-t-xl flex justify-center border-b border-[#FFFFFF10] hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">پلن ها</button>
+              </div>
+            </Link>
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 flex justify-center border-b border-[#FFFFFF10] hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">سوالات متداول</button>
+              </div>
+            </Link>
+
+            <Link href={"#"}>
+              <div className="h-12 w-44 rounded-b-xl flex justify-center hover:bg-[#ffffff37] duration-300">
+                <button className="w-44 cursor-pointer">تماس با ما</button>
+              </div>
+            </Link>
+
+          </div>
+          <div className="ml-28 flex items-center" dir="ltr">
+            <Image src={"/menu.png"} alt="menu.png" width={100} height={100} className="ml-8 bg-[#FFFFFF10] px-4 py-10 rounded-l-xl" />
           </div>
           <p className="max-w-2xl ml-auto text-center bg-[#FFFFFF10] py-[20px] px-[30px] rounded-r-xl">
-            ما وب‌سایت‌هایی مدرن، سریع و کاربرپسند برای شرکت‌ها طراحی می‌کنیم تا حضور آنلاین شما را به یک مزیت رقابتی تبدیل کنیم. از طراحی اختصاصی و واکنش‌گرا گرفته تا بهینه‌سازی برای موتورهای جستجو (SEO) و پیاده‌سازی امکانات اختصاصی، همه‌چیز را با بالاترین کیفیت انجام می‌دهیم تا برند شما بدرخشد و مشتریان بیشتری جذب کنید.
+            ما وب‌سایت‌هایی مدرن، سریع و کاربرپسند برای شرکت‌ها طراحی می‌کنیم تا حضور آنلاین شما را به یک مزیت رقابتی تبدیل کنیم. از طراحی اختصاصی و واکنش‌گرا گرفته تا بهینه‌سازی برای موتورهای جستجو و پیاده‌سازی امکانات اختصاصی، همه‌چیز را با بالاترین کیفیت انجام می‌دهیم تا برند شما بدرخشد و مشتریان بیشتری جذب .
           </p>
         </div>
       </section>
