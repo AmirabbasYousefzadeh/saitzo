@@ -13,6 +13,7 @@ const navItems = [
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState("/");
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 border-b border-white/10 backdrop-blur-md font-iran">
@@ -28,7 +29,10 @@ export default function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className="relative group text-white font-medium"
+              onClick={() => setActiveLink(item.href)}
+              className={`relative group text-white font-medium transition-colors duration-300
+                ${activeLink === item.href ? "text-cyan-400" : "hover:text-cyan-300"}`}
+              aria-current={activeLink === item.href ? "page" : undefined}
             >
               {item.label}
               <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
@@ -48,6 +52,7 @@ export default function Header() {
         <button
           className="md:hidden text-white"
           onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={menuOpen ? "بستن منو" : "باز کردن منو"}
         >
           {menuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
@@ -60,8 +65,12 @@ export default function Header() {
             <Link
               key={item.href}
               href={item.href}
-              onClick={() => setMenuOpen(false)}
-              className="block border-b border-white/10 pb-2 text-lg font-medium"
+              onClick={() => {
+                setMenuOpen(false);
+                setActiveLink(item.href);
+              }}
+              className={`block border-b border-white/10 pb-2 text-lg font-medium transition-colors duration-300
+                ${activeLink === item.href ? "text-cyan-400" : "hover:text-cyan-300"}`}
             >
               {item.label}
             </Link>
