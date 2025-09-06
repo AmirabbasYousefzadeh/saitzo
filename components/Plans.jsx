@@ -77,7 +77,7 @@ const plansData = {
       en: "Base",
       desc: "مناسب برای فروشگاه اینترنتی ساده و کوچک",
       features: [
-        {icon: "/coding.png", text: "یک صفحه سایت"},
+        { icon: "/coding.png", text: "یک صفحه سایت" },
         { icon: "/responsive.png", text: "طراحی واکنش‌گرا" },
         { icon: "/support.png", text: "پشتیبانی اولیه" },
         { icon: "/social-media.png", text: "اتصال به شبکه های اجتماعی" },
@@ -110,7 +110,7 @@ const plansData = {
       en: "Base",
       desc: "پورتفولیو ساده شخصی",
       features: [
-        {icon: "/coding.png", text: "یک صفحه سایت"},
+        { icon: "/coding.png", text: "یک صفحه سایت" },
         { icon: "/responsive.png", text: "طراحی واکنش‌گرا" },
       ],
     },
@@ -217,10 +217,13 @@ function Plans() {
             className='w-80 rounded-2xl border-[1px] shadow-blue-900 shadow-2xl border-solid mx-5 text-white border-white/10 px-5 py-5 h-[440px]'
             dir='rtl'
           >
-            <div className='text-3xl font-bold mb-3 px-3 flex'>
-              <p>{plan.title}</p>
-              
-              <span className='ml-auto' dir='ltr'>{plan.en}</span>
+            <div className='text-3xl font-bold mb-3 flex w-full'>
+              <div className='w-1/2 pr-1'>
+                <p>{plan.title}</p>
+              </div>
+              <div dir='ltr' className='w-1/2 pl-1'>
+                <span>{plan.en}</span>
+              </div>
             </div>
             <p className="text-sm px-3 font-bold">{plan.desc}</p>
             <div className='text-center mb-5'>
