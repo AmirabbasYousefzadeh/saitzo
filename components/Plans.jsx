@@ -37,7 +37,7 @@ const plansData = {
       en: "Base",
       desc: "مناسب برای پروژه های شرکتی ساده و کوچک",
       features: [
-        { icon: "/coding.png", text: "یک صفحه سایت" },
+        { icon: "/coding.png", text: "طراحی یک صفحه‌ای" },
         { icon: "/responsive.png", text: "طراحی واکنش‌گرا" },
         { icon: "/support.png", text: "پشتیبانی اولیه" },
         { icon: "/social-media.png", text: "اتصال به شبکه های اجتماعی" },
@@ -77,7 +77,7 @@ const plansData = {
       en: "Base",
       desc: "مناسب برای فروشگاه اینترنتی ساده و کوچک",
       features: [
-        { icon: "/coding.png", text: "یک صفحه سایت" },
+        { icon: "/coding.png", text: "طراحی یک صفحه‌ای" },
         { icon: "/responsive.png", text: "طراحی واکنش‌گرا" },
         { icon: "/support.png", text: "پشتیبانی اولیه" },
         { icon: "/social-media.png", text: "اتصال به شبکه های اجتماعی" },
@@ -110,7 +110,7 @@ const plansData = {
       en: "Base",
       desc: "پورتفولیو ساده شخصی",
       features: [
-        { icon: "/coding.png", text: "یک صفحه سایت" },
+        { icon: "/coding.png", text: "طراحی یک صفحه‌ای" },
         { icon: "/responsive.png", text: "طراحی واکنش‌گرا" },
       ],
     },
@@ -121,9 +121,10 @@ const plansData = {
       en: "Leap",
       desc: "سیستم نوبت‌دهی پیشرفته",
       features: [
-        { icon: "/calendar.png", text: "تقویم آنلاین" },
-        { icon: "/payment.png", text: "پرداخت اینترنتی" },
-        { icon: "/customers.png", text: "مدیریت مشتری" },
+        { icon: "/calendar.png", text: "تقویم آنلاین پیشرفته" },
+        { icon: "/notification.png", text: "اعلان پیامکی" },
+        { icon: "/payment-method.png", text: "درگاه پرداخت آنلاین" },
+        { icon: "/administrator (2).png", text: "مدیریت مشتری" },
       ],
     },
     {
@@ -131,8 +132,8 @@ const plansData = {
       en: "Pro",
       desc: "سیستم نوبت‌دهی استاندارد",
       features: [
-        { icon: "/calendar.png", text: "تقویم ساده" },
-        { icon: "/sms.png", text: "اعلان پیامکی" },
+        { icon: "/calendar.png", text: "تقویم آنلاین ساده" },
+        { icon: "/notification.png", text: "اعلان پیامکی" },
       ],
     },
     {
@@ -141,7 +142,7 @@ const plansData = {
       desc: "نوبت‌دهی ساده",
       features: [
         { icon: "/calendar.png", text: "رزرو دستی" },
-        { icon: "/whatsapp.png", text: "اتصال واتساپ" },
+        { icon: "/social-media.png", text: "اتصال به شبکه های اجتماعی" },
       ],
     },
   ],
@@ -151,9 +152,10 @@ const plansData = {
       en: "Leap",
       desc: "منوی دیجیتال حرفه‌ای",
       features: [
-        { icon: "/menu.png", text: "منوی چندزبانه" },
-        { icon: "/images.png", text: "تصاویر نامحدود" },
-        { icon: "/qr.png", text: "کد QR اختصاصی" },
+        { icon: "/restaurantMenu.png", text: "محصول نامحدود" },
+        { icon: "/SaitzoQRCode.png", text: "QR Code اختصاصی" },
+        { icon: "/menu.png", text: "تصاویر محصول" },
+        { icon: "/languages.png", text: "منوی چندزبانه" },
       ],
     },
     {
@@ -161,8 +163,9 @@ const plansData = {
       en: "Pro",
       desc: "منوی دیجیتال با امکانات",
       features: [
-        { icon: "/menu.png", text: "۲۰ آیتم" },
-        { icon: "/images.png", text: "تصاویر محصول" },
+        { icon: "/restaurantMenu.png", text: "محصول نامحدود" },
+        { icon: "/SaitzoQrCode.png", text: "QR Code عمومی" },
+        { icon: "/menu.png", text: "تصاویر محصول" },
       ],
     },
     {
@@ -170,8 +173,8 @@ const plansData = {
       en: "Base",
       desc: "منوی ساده دیجیتال",
       features: [
-        { icon: "/menu.png", text: "۱۰ آیتم" },
-        { icon: "/qr.png", text: "کد QR عمومی" },
+        { icon: "/restaurantMenu.png", text: "محصول نامحدود" },
+        { icon: "/SaitzoQrCode.png", text: "QR Code عمومی" },
       ],
     },
   ],
