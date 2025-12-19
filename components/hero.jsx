@@ -1,9 +1,17 @@
 "use client";
+"use client";
 import React from "react";
 import { useState, useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Link from "next/link";
 import Header from "./header";
+
+// Guard for localStorage access (prevents SSR issues)
+const useClientSide = () => {
+  const [isClient, setIsClient] = useState(false);
+  useEffect(() => setIsClient(true), []);
+  return isClient;
+};
 
 const messages = [
   "طراحی وب‌سایت‌های مدرن و واکنش‌گرا",
