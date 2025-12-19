@@ -21,16 +21,17 @@ const messages = [
 ];
 
 export default function Hero() {
+  const isClient = useClientSide();
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    if (currentIndex < messages.length - 1) {
+    if (isClient && currentIndex < messages.length - 1) {
       const timer = setTimeout(() => {
         setCurrentIndex(currentIndex + 1);
       }, 3000); // زمان نمایش هر پیام (تایپ و مکث)
       return () => clearTimeout(timer);
     }
-  }, [currentIndex]);
+  }, [currentIndex, isClient]);
 
   return (
     <section
@@ -44,7 +45,7 @@ export default function Hero() {
         <h1 className="text-4xl md:text-5xl font-bold mb-8">Saitzo</h1>
 
         <div className="text-xl md:text-2xl font-medium space-y-4 min-h-[200px]">
-          {messages.slice(0, currentIndex + 1).map((msg, index) => (
+          {isClient && messages.slice(0, currentIndex + 1).map((msg, index) => (
             <div key={index}>
               {index === currentIndex ? (
                 <Typewriter
